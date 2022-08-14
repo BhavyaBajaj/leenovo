@@ -351,9 +351,17 @@ nav .desktop-nav li a:hover {
         width: 100%;
         padding: 0 32px;
     }
+   
+    
 }
 
 @media (max-width: 768px) {
+
+.laptop{
+    background-color: #000000;
+
+}
+
 
     .front{
         font-size: 30px;
@@ -620,15 +628,7 @@ a {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.fron{
-    display: flex;
-    justify-content: space-between;
-    
-    
-    align-items:center;
-    margin: 4%;
-    
-}
+
 
 .front-sidee{
     display: block;
@@ -733,4 +733,32 @@ footer{
     justify-content: space-between;
     background-color: #E60012;
     align-items: center;
+}
+.photo{
+    text-decoration: none;
+}
+.about{
+    text-decoration: none;
+    color: black;
+}
+.about:hover{
+    font-size: larger;
+    color: white;
+}
+.fron{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    align-items:center;
+    margin: 4%;
+    
+}
+.aboutt{
+    width: 100%;
+    object-fit: cover;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
 }
